@@ -18,10 +18,15 @@
 
 
 
-        table , tr, td ,th {
-            border: 1px solid red;
+        table,
+        tr,
+        th,
+        td,
+        caption {
+            border: 1px solid #8c1414;
+            font-family: 'Courier New', Courier, monospace;
             border-collapse: collapse;
-            padding: 10px;
+            padding: 0.5rem;
         }
     </style>
 </head>
@@ -29,8 +34,8 @@
 <body>
     <h1>HTML Table</h1>
     <hr>
-   
-    <table>
+
+    <table style="float: right;">
         <thead>
             <tr>
                 <th>#</th>
@@ -41,15 +46,14 @@
                 <th>Batch</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
-               <td>1</td>
-               <td>John</td>
-               <td>12-12-1994</td>
-               <td>01-05-2023</td>
-               <td>A</td>
-               <td>2</td> 
+                <td>1</td>
+                <td>John</td>
+                <td>12-12-1994</td>
+                <td>01-05-2023</td>
+                <td>A</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>2</td>
@@ -60,6 +64,99 @@
                 <td>1</td>
             </tr>
         </tbody>
+    </table>
+    <hr>
+    <hr>
+    <hr>
+
+    <table>
+        <caption><strong> Daily Schedule</strong></caption>
+         <tr>
+            <th></th>
+            <th>Time</th>
+            <th>Activity</th>
+         </tr>
+         <tr>
+                <th>Morning</th>
+                <td>8am-11am</td>
+                <td>Write Code</td>
+         </tr>
+         <tr>
+            <th>Break</th>
+            <td>11am-12pm</td>
+            <td>Eat Lunch</td>
+     </tr>
+     <tr>
+        <th>Afternoon</th>
+        <td>12pm-5pm</td>
+        <td>Study for Other Courses</td>
+    </tr>
+    <tr>
+        <th>Evening</th>
+        <td rowspan="2">All Other Times</td>
+        <td>Free Time</td>
+    </tr>
+    <tr>
+        <th>Night</th>
+        <td>Sleep</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            And that's what I do every day, 5 days a week. Just eat, sleep, code ..and recharge!
+        </td>
+    </tr>
+    </table>
+    <table> 
+        
+        <caption><strong>movie list</strong></caption>
+        <tr>
+            <th>sl.no</th>
+            <th>movie</th>
+            <th>Director</th>
+            <th>post</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Avatar</td>
+            <td>James Cameron</td>
+            <td>
+                <img src="./image/ginee.jpeg" alt="" width="100px" height="100px">
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Dil diwana</td>
+            <td>Narendra Bedi</td>
+            <td>
+                <img src="./image/dildewana.jpg" alt=""width="100px" height="100"px>
+                </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>fida</td>
+            <td>Sekhar KammulaSekhar</td>
+            <td>
+                <img src="./image/fidaa.webp" alt=""width="100px" height="100"px>
+            </td>
+        </tr>
+          <tr>
+            <td>4</td>
+            <td>radhe</td>
+            <td>Prabhu Deva</td>
+            <td>
+                <img src="./image/radhe.jpg" alt=""width="100px" height="100px">
+            </td>
+        </tr>
+    <tr>
+            <td>5</td>
+            <td>liger</td>
+            <td>Puri Jagannadh</td>
+            <td>
+                <img src="./image/Liger-poster_1647771949.jpg" alt=""width="100px" height="100"px>
+            </td>
+        </tr>
+        
+
     </table>
 </body>
 

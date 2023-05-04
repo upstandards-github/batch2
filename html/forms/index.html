@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dave Gray">
+    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML FORMS</h1>
+
+       
+    </header>
+
+    <hr>
+    <main>
+        
+
+        <article id="contact">
+            <form>
+                <fieldset>
+                    <legend>My First Forms</legend>
+                    <div>
+                        <label for="firstname">First Name: </label>
+                        <input type="text" id="firstname">
+                    </div>
+                    <div>
+                        <label for="password">Password: </label>
+                        <input type="password" id="password">
+                    </div>
+                    <div>
+                        <label for="stream">Stream:  </label>
+                        <select name="stream" id="stream">
+                            <option value="">Select</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BBA">BBA</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="gender">Gender: </label>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio"  name="gender"> Female
+                    </div>
+                    <div>
+                        <label for="Menu">Menu: </label>
+                        <input type="checkbox" name="menu" id="menu1"> Continental
+                        <input type="checkbox" name="menu" id="menu2"> Chiness
+                        <input type="checkbox" name="menu" id="menu3"> Indian
+                    </div>
+                    <div>
+                        <label for="feedback">FeedBack: </label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="dob">DOB: </label>
+                        <input type="date" name="" id="dob">
+                    </div>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="" id="">
+                    </div>
+
+                    <div>
+                        <label for="color">Color: </label>
+                        <input type="color" name="" id="">
+                    </div>
+
+                    <div>
+                        <label for="upload">Upload</label>
+                        <input type="file">
+                    </div>
+
+                    <div>
+                        <label for="range">Range</label>
+                        <input type="range" name="" id="" >
+                    </div>
+                    <button>Submit</button>
+                    <input type="button" value="Reset">
+                </fieldset>
+
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Dave Gray</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
