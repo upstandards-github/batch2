@@ -1,0 +1,23 @@
+#heading {
+    color: darkolivegreen;
+}
+
+.subHeading {
+    color: blueviolet;
+}
+
+h3 {
+    color: red;
+}
+
+.demo {
+    color: yellow;
+}
+
+h3.demo {
+    color: pink;
+}
+
+h3#demo2 {
+    color: darkslategray;
+}
